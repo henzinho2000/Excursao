@@ -1,0 +1,58 @@
+
+body{
+    box-sizing: border-box;
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+}
+
+a{
+    color: aquamarine;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+a:hover{
+    color: white;
+    font-size: 19px;
+}
+
+p{
+    color: gray;
+    font-size: 21px;
+}
+
+.h1{
+    font-size: 50px;
+    color: white;
+}
+
+.h2{
+    font-weight: 300;
+    font-size: 45px;
+    color: white;
+}
+
+footer{
+    text-align: right;
+}
+
+@media only screen and (max-width:480px){
+    .cabana{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 450px;
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .cabana{
+        margin-left: -10px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 500px;
+    }
+}
